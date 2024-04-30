@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.select {
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 100px;
+  display: flex;
+}
+
+.div-redondo {
+  background-color: #fff;
+  border: 15px solid #000;
+  border-radius: 130px;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  display: flex;
+}
+
+.h2-redondo {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.hands-div {
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  display: flex;
+  position: absolute;
+  bottom: -14px;
+}
+
+@media (width <= 450px) {
+  .hands-div {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=index.28223dd5.css.map */

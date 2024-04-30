@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("fondo (1).a5bfd4d5.png");
+  background-repeat: repeat;
+  background-size: auto 60px;
+  height: 100vh;
+  margin: 0;
+  font-family: Times New Roman, sans-serif;
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.61d3354a.css.map */
